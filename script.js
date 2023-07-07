@@ -38,34 +38,3 @@ document.getElementById("guessInput").addEventListener("keydown", function (even
     checkGuess();
   }
 });
-
-    if (guess < targetLocation) {
-      message.textContent = "¡El pedo está en una habitación más grande!";
-    } else if (guess > targetLocation) {
-      message.textContent = "¡El pedo está en una habitación más pequeña!";
-    } else {
-      message.textContent = "¡Felicidades! ¡Has encontrado el pedo invisible en la habitación " + targetLocation + "!";
-      message.style.color = "green";
-      guessInput.disabled = true;
-    }
-  }
-
-  guessInput.value = "";
-  guessInput.focus();
-}
-
-  
-    if (guess < targetLocation) {
-      message.textContent = "¡El pedo está en una habitación más grande!";
-    } else if (guess > targetLocation) {
-      message.textContent = "¡El pedo está en una habitación más pequeña!";
-    } else {
-      message.textContent = "¡Felicidades! ¡Has encontrado el pedo invisible en la habitación " + targetLocation + "!";
-      message.style.color = "green";
-      guessInput.disabled = true;
-    }
-  }
-  
-  guessInput.value = "";
-  guessInput.focus();
-}
